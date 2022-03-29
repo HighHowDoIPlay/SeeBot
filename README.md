@@ -17,11 +17,14 @@ Let's start by taking a look some examples:
 ```
 KeyOne=This is a value with `markdown` and variables %arg0%.
 KeyTwo=This is just a normal value.
+#This is a comment.
 ```
 Taking a look at the start of each line, you can see they start with a word (or phrase) followed by an equals sign. This is a `Key`. Everything after the equals sign is the `Value`. **DO NOT** modify `Key` names, or else See-Bot won't be able to find the `Value` associated with it anymore.
 
 In `KeyOne`, it uses a mixture of [Discord Markdown](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-) and variables. The text `%arg0%` is a variable that gets replaced programatically by See-Bot, filling it in with a changing-value (example: A Fortnite Username, which is different for each user). In this context the `0` is referring to which value will be used (0 being the first value in the list), and the rest of it is just for See-Bot to know what to replace and where.
 In `KeyTwo`, it has no markdown or variables, for comparison.
+
+Lines starting with `#` are comments, and do not get read by the bot. Do not modify comments. You are welcome to add your own comment in files you worked on (i.e: `#File edited by HighHowDoIPlay`). Don't claim others' work as your own.
 
 When modifying a `.properties` file, it is recommended to use [Notepad++](https://notepad-plus-plus.org/downloads/) or a similar Rich-Text-Editor. This will help you easily distinguish between what is and isn't a key, and just provide an easier editing experience overall.
 
