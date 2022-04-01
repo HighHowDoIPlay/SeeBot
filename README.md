@@ -31,3 +31,12 @@ When modifying a `.properties` file, it is recommended to use [Notepad++](https:
 **NOTE**: Please be sure to check back here often, as I may the help information/"rules" on submitting.
 
 You're also welcome to [Join the See-Bot Discord](https://discord.gg/F7musYd), where I'll be posting updates and etc about the project.
+
+## Missing Keys
+If you see a "MissingKeys" error in See-Bot, it's due to one of the following:
+1. I copy and pasted some code and forgot to change what file the Language Handler is pointing to.
+2. The key is misnamed in the properties file.
+3. The key is misnamed in the code.
+
+If it's issue 1 or issue 3, it's best to contact me on the See-Bot Dscord (above) and tell me what is broken.
+If it's issue 2, then you should make a pull request with the fix before contacting me, or if you don't know how to do that, just contact me on the See-Bot Discord.
