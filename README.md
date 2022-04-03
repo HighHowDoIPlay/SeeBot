@@ -7,8 +7,8 @@ You are welcome to contribute translations of the strings to improve See-Bot's (
 
 ## How-to-help
 - Pick a language you're fluent in
-- Download the **English** version of the files
-- Translate the values to your desired language, preserving markdown and variables (See "[Formatting Help](#formatting-help)" below)
+- Download the project (fork a copy of it)
+- Translate the **English** properties files to your desired language, preserving markdown and variables (See "[Formatting Help](#formatting-help)" below)
 - Rename each file you translate to include the appropriate Language Code at the end of the file name, before the file extension (See "[Naming Help](#naming-help)" below)
 - Make a pull request containing the updated Localization files.
 
