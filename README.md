@@ -35,7 +35,7 @@ When modifying a `.properties` file, it is recommended to use [Notepad++](https:
 
 You're also welcome to [Join the See-Bot Discord](https://discord.gg/F7musYd), where I'll be posting updates and etc about the project.
 
-##Naming Help
+## Naming Help
 
 You've downloaded the English Language files, have started to translate them but now you don't know what to save the file name as.
 
