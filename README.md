@@ -39,11 +39,11 @@ You're also welcome to [Join the See-Bot Discord](https://discord.gg/F7musYd), w
 
 You've downloaded the English Language files, have started to translate them but now you don't know what to save the file name as.
 
-1. First, you'll want to open the [Java 8 Supported Locales](https://www.oracle.com/java/technologies/javase/java8locales.html) webpage.
-2. Then, you'll want to find the Language you've decided to translate. We'll use `Spanish (es)`, specifically the Mexico version as an example.
-3. Next, find the language tag (5th row). For our example, it's `es-MX`. This is what you'll be including in the file name, but you will need to make some modifications first.
-4. Add a \_before the start of the tag, and replace the - with a \_ as well. Then, change any uppercase letters to lowercase. `es-MX` becomes `_es_mx` in the example.
-5. Add your new language tag to any file you translate. For example, if you updated `CommonStrings.properties` to have Spanish translations for Mexico, you'd update the file name to `CommonStrings_es_mx.properties`.
+1. First, you'll want to open the [Discord Supported Locales](https://discord.com/developers/docs/reference#locales) webpage.
+2. Then, you'll want to find the Language you've decided to translate. We'll use `English, UK`, as an example.
+3. Next, find the language tag (4th row). For our example, it's `en-GB`. This is what you'll be including in the file name, but you will need to make some modifications first.
+4. Add a \_before the start of the tag, and replace the - with a \_ as well. Then, change any uppercase letters to lowercase. `en-GB` becomes `_en_gb` in the example.
+5. Add your new language tag to any file you translate. For example, if you updated `CommonStrings.properties` to have English translations for the UK, you'd update the file name to `CommonStrings_en_gb.properties`.
 
 If you still need assistance [Join the See-Bot Discord](https://discord.gg/F7musYd), and ask for help in the `#properties-help` channel.
 
